@@ -1,7 +1,7 @@
 # python-unittesting-example-2025
 
 A small example project to demonstrate how to write unit tests in Python.
-
+The focus isn't on the actual logic or the most efficient code/code-style, but on the testing part.
 
 ## Setting up the project
 
