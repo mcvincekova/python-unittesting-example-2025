@@ -117,9 +117,9 @@ class TestDevice(TestCase):
 
     # ---
     # Notes
-    # Notice how we are testing the `Device.to_dict()` method, instead of the private methods suc has
+    # Notice how we are testing the `Device.to_dict()` method, instead of the private methods such as
     # `Device._get_device_user_id()`.
-    # Moreover, once we have written a test for the `Device.to_dict()` method, we could have 'safely' refactored it
-    # by directly accessing `Device` params instead of using private helper methods that only accessed the params
-    # (and offered no extra logic)
+    # Moreover, once we had written a test for the `Device.to_dict()` method, we could 'safely' refactor it
+    # by directly accessing `Device` params instead of using private helper methods that only accessed those params
+    # (and offered no extra logic on top of that)
     # ---
